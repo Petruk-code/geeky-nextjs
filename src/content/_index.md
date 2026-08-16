@@ -11,6 +11,11 @@ banner:
     link: /about
     rel: ""
 
+categories_section:
+  enable: true
+  title: Mau belajar apa hari ini?
+  content: Temukan tutorial dan panduan download berdasarkan minatmu.
+
 featured_posts:
   enable: true
   title: Postingan Unggulan
@@ -21,7 +26,15 @@ promotion:
   link: "#"
 
 recent_posts:
-  title: Postingan Terbaru
+  title: Apa yang baru?
   enable: true
+
+newsletter:
+  enable: true
+  title: Newsletter
+  content: Biar nggak ketinggalan artikel terbaru, berlangganan gratis dan langsung terkirim ke email kamu.
+  placeholder: Alamat email kamu
+  button: Subscribe
+  form_action: "https://formspree.io/f/xxxxx"
 
 ---
