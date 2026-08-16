@@ -1,5 +1,8 @@
+import config from "@config/config.json";
 import { sortByDate } from "@lib/utils/sortFunctions";
 import Link from "next/link";
+
+const { blog_folder } = config.settings;
 
 const InnerPagination = ({ posts, date }) => {
   const orderedPosts = sortByDate(posts);
@@ -11,13 +14,19 @@ const InnerPagination = ({ posts, date }) => {
   const prev =
     postIndex == lastIndex ? undefined : orderedPosts[postIndex + 1].slug;
   const prevButton = prev && (
-    <Link href={prev} className={"btn btn-primary"}>
-      Prev
+    <Link
+      href={`/${blog_folder}/${prev}`}
+      className={"btn btn-primary"}
+    >
+      Sebelumnya
     </Link>
   );
   const nextButton = next && (
-    <Link href={next} className={"btn btn-primary"}>
-      Next
+    <Link
+      href={`/${blog_folder}/${next}`}
+      className={"btn btn-primary"}
+    >
+      Berikutnya
     </Link>
   );
 

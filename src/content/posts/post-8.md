@@ -24,3 +24,6 @@ ArchiCAD menawarkan keunggulan BIM dengan pendekatan yang lebih bersahabat bagi 
 > Software terbaik bukan yang paling mahal, tapi yang paling sesuai dengan skala proyek dan kemampuanmu.
 
 Untuk proyek desain rumah tinggal, SketchUp + AutoCAD sudah cukup. Untuk skala yang lebih besar, pelan-pelan transisi ke Revit atau ArchiCAD.
+
+<Download href="/images/post/post-8.png" title="Katalog Lengkap Software Arsitektur 2026" size="3.1 MB" align="center" />
+

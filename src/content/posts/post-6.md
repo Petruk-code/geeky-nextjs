@@ -9,6 +9,8 @@ draft: false
 
 ETABS adalah software analisis struktur yang wajib dikuasai mahasiswa teknik sipil. Sayangnya, tidak semua orang punya laptop gaming dengan spesifikasi tinggi. Kabar baiknya, ETABS masih bisa berjalan di laptop standar asalkan dirawat dengan benar.
 
+<SoftwareInfo developer="Computers & Structures (CSI)" version="22.0" size="1.5 GB" os="Windows 10/11 (64-bit)" license="Berbayar / Versi Trial" update="Mei 2026" />
+
 ## Sebelum Instalasi
 
 Pastikan kamu sudah menonaktifkan antivirus sementara dan menutup semua aplikasi lain. Proses instalasi ETABS cukup ringan, tetapi saat analisis berjalan, software ini akan mengonsumsi RAM dalam jumlah besar.
@@ -25,3 +27,6 @@ Pastikan kamu sudah menonaktifkan antivirus sementara dan menutup semua aplikasi
 ## Tips Menjaga Performa
 
 Untuk laptop dengan RAM 8 GB, tutup browser dan aplikasi lain saat menjalankan analisis. Gunakan model dengan jumlah elemen seminimal mungkin di awal. Simpan file secara berkala untuk menghindari kehilangan pekerjaan jika aplikasi crash.
+
+<Download href="/images/post/post-6.png" title="Panduan Konfigurasi ETABS RAM 8GB (PDF)" size="950 KB" type="dark" />
+

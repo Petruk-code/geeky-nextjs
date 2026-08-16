@@ -27,3 +27,6 @@ Jangan langsung menjalankan analisis dengan mesh yang sangat rapat. Mulailah den
 > Model yang rapi dan terstruktur akan lebih cepat diproses dibanding model yang berantakan.
 
 Jika performa masih kurang, pertimbangkan upgrade RAM minimal 16 GB karena analisis struktur sangat bergantung pada memori.
+
+<Download href="/images/post/post-2.png" title="Checklist Optimalisasi Model SAP2000 (PDF)" size="1.8 MB" type="outline" />
+

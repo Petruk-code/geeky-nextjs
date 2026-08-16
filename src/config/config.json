@@ -10,8 +10,8 @@
     "logo_text": "Geeky",
     "cta": {
       "enable": true,
-      "label": "Mulai Sekarang",
-      "link": "/contact"
+      "label": "Donasi",
+      "link": "/donasi"
     }
   },
   "settings": {
@@ -56,7 +56,7 @@
       "enable": true,
       "title": "Newsletter",
       "content": "Berlangganan untuk mendapat artikel terbaru tentang software, desain, dan AI langsung di inbox kamu!",
-      "privacy_policy_page": "#",
+      "privacy_policy_page": "/kebijakan-privasi",
       "malichipm_url": ""
     }
   },

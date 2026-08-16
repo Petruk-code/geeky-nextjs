@@ -27,7 +27,7 @@ const getData = (folder, groupDepth) => {
       const slug =
         data.slug ||
         pathParts
-          .slice(CONTENT_DEPTH)
+          .slice(groupDepth + 1)
           .join("/")
           .replace(/\.[^/.]+$/, "");
       const group = pathParts[groupDepth];
@@ -40,6 +40,11 @@ const getData = (folder, groupDepth) => {
           description: data.description || "",
           categories: data.categories || [],
           tags: data.tags || [],
+          date: data.date || "",
+          image: data.image || "",
+          draft: data.draft || false,
+          author: data.author || "",
+          featured: data.featured || false,
         },
         content: content,
       };

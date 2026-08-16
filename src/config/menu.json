@@ -9,6 +9,10 @@
       "url": "/about"
     },
     {
+      "name": "Cara Download",
+      "url": "/cara-download"
+    },
+    {
       "name": "Kontak",
       "url": "/contact"
     }
@@ -23,12 +27,20 @@
       "url": "/about"
     },
     {
+      "name": "Cara Download",
+      "url": "/cara-download"
+    },
+    {
+      "name": "Donasi",
+      "url": "/donasi"
+    },
+    {
       "name": "Kontak",
       "url": "/contact"
     },
     {
       "name": "Kebijakan Privasi",
-      "url": "#"
+      "url": "/kebijakan-privasi"
     }
   ]
 }

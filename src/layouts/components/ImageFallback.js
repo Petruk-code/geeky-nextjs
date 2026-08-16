@@ -6,18 +6,18 @@ import { useEffect, useState } from "react";
 
 const ImageFallback = (props) => {
   const { src, fallback, ...rest } = props;
-  const [imgSrc, setImgSrc] = useState(src);
+  const [imgSrc, setImgSrc] = useState(src || fallback || null);
 
   useEffect(() => {
-    setImgSrc(src);
-  }, [src]);
+    setImgSrc(src || fallback || null);
+  }, [src, fallback]);
 
   return (
     <Image
       {...rest}
       src={imgSrc}
       onError={() => {
-        setImgSrc(fallback);
+        setImgSrc(fallback || null);
       }}
     />
   );

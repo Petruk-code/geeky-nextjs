@@ -9,6 +9,8 @@ draft: false
 
 AutoCAD merupakan software andalan para insinyur sipil dan arsitek untuk membuat gambar kerja. Sayangnya, proses instalasinya seringkali berakhir dengan error yang bikin pusing. Mulai dari error .NET Framework, missing component, sampai instalasi yang berhenti di tengah jalan.
 
+<SoftwareInfo developer="Autodesk" version="2025" size="2.8 GB" os="Windows 10/11 (64-bit)" license="Berbayar / Lisensi Student" update="Maret 2025" />
+
 ## Penyebab Error Instalasi Paling Umum
 
 Sebagian besar error terjadi karena beberapa hal berikut:
@@ -25,3 +27,6 @@ Pertama, pastikan kamu menonaktifkan sementara antivirus selama proses instalasi
 > Kesalahan paling sering terjadi bukan karena softwarenya, tapi karena komponen pendukung yang belum lengkap.
 
 Setelah semua langkah dilakukan, instalasi biasanya berjalan lancar. Jika masih error, coba bersihkan sisa file dari versi lama menggunakan tools seperti Revo Uninstaller sebelum mengulang instalasi.
+
+<Download href="/images/post/post-1.png" title="Panduan Lengkap Fix Error AutoCAD (PDF)" size="2.4 MB" />
+

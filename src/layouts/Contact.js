@@ -93,6 +93,7 @@ const Contact = ({ data }) => {
                 </label>
                 <textarea
                   className="form-textarea w-full"
+                  name="message"
                   placeholder="Halo, saya ingin menanyakan sesuatu..."
                   rows="7"
                 />
