@@ -44,10 +44,10 @@ const BlogPagination = async ({ params }) => {
       <SeoMeta pathname={`/page/${slug}`} title={title} />
       <section className="section">
         <div className="container">
-          {markdownify(title, "h1", "h2 mb-8 text-center")}
-          <div className="row mb-16">
+          {markdownify(title, "h1", "h2 mb-6 text-center")}
+          <div className="row mb-8">
             {currentPosts.map((post, i) => (
-              <div className="mt-16 lg:col-6" key={post.slug}>
+              <div className="mt-8 lg:col-6" key={post.slug}>
                 <Post post={post} />
               </div>
             ))}

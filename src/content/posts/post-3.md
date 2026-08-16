@@ -1,25 +1,24 @@
 ---
-title: What you need to know about Photography
-date: 2022-04-02T03:00:00+00:00
+title: "Hal yang Perlu Kamu Ketahui tentang Desain Grafis"
+date: 2026-01-03T03:00:00Z
 image: /images/post/post-3.png
-categories: ["workstation"]
+categories: ["desain grafis"]
 featured: true
 draft: false
 ---
 
-Nemo vel ad consectetur namut rutrum ex, venenatis sollicitudin urna. Aliquam erat volutpat. Integer eu ipsum sem. Ut bibendum lacus vestibulum maximus suscipit. Quisque vitae nibh iaculis neque blandit euismod.
+Desain grafis bukan sekadar membuat gambar yang bagus. Di baliknya ada prinsip-prinsip yang membuat sebuah karya terlihat profesional dan komunikatif. Mulai dari tipografi, komposisi, hingga pemilihan warna yang tepat.
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vel ad consectetur ut aperiam. Itaque eligendi natus aperiam? Excepturi repellendus consequatur quibusdam optio expedita praesentium est adipisci dolorem ut eius!
+## Prinsip Dasar yang Wajib Dikuasai
 
-## Covid-19 Situation
+Sebelum bermain dengan tools, pahami dulu empat prinsip dasar: keselarasan (alignment), keseimbangan (balance), kontras, dan hierarki visual. Keempatnya menentukan bagaimana mata pembaca bergerak saat melihat karya kamu.
 
-Nam ut rutrum ex, venenatis sollicitudin urna. Aliquam erat volutpat. Integer eu ipsum sem. Ut bibendum lacus vestibulum maximus suscipit. Quisque vitae nibh iaculis neque blandit euismod.
+## Tools yang Sering Digunakan
 
-> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vel ad consectetur ut aperiam. Itaque eligendi natus aperiam? Excepturi repellendus consequatur quibusdam optio expedita praesentium est adipisci dolorem ut eius!
+Untuk pemula, ada banyak pilihan software desain grafis. Adobe Photoshop dan Illustrator adalah standar industri, sementara CorelDRAW populer di kalangan desainer Indonesia. Untuk kebutuhan sederhana, Figma dan Canva bisa jadi alternatif gratis yang cukup mumpuni.
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vel ad consectetur ut aperiam. Itaque eligendi natus aperiam? Excepturi repellendus consequatur quibusdam optio expedita praesentium est adipisci dolorem ut eius!
+> Tools hanyalah alat bantu. Yang membedakan desainer hebat adalah kemampuan melihat dan menyusun elemen visual.
 
-![alter-text](/images/post/post-1.png)
-*Example Caption*
+## Mulai dari Mana?
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vel ad consectetur ut aperiam. Itaque eligendi natus aperiam? Excepturi repellendus consequatur quibusdam optio expedita praesentium est adipisci dolorem ut eius! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vel ad consectetur ut aperiam. Itaque eligendi natus aperiam? Excepturi repellendus consequatur quibusdam optio expedita praesentium est adipisci dolorem ut eius!
+Mulailah dengan meniru desain yang sudah ada untuk belajar, lalu perlahan buat karya orisinal. Manfaatkan tutorial dari YouTube dan komunitas desainer untuk mengasah kemampuan. Yang terpenting adalah konsistensi dalam berlatih.

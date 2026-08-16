@@ -36,9 +36,12 @@ export const humanize = (content) => {
   if (!content) return null;
 
   return content
-    .replace(/^[\s_]+|[\s_]+$/g, "")
-    .replace(/[_\s]+/g, " ")
+    .replace(/^[\s_-]+|[\s_-]+$/g, "")
+    .replace(/[_\s-]+/g, " ")
     .replace(/^[a-z]/, function (m) {
+      return m.toUpperCase();
+    })
+    .replace(/(\s)[a-z]/g, function (m) {
       return m.toUpperCase();
     });
 };

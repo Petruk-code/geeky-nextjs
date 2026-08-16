@@ -1,25 +1,26 @@
 ---
-title: "Robotic world is growing very fast"
-date: 2022-04-04T11:00:00Z
+title: "AI Tools Gratis yang Bisa Membantu Kerja Sehari-hari"
+date: 2026-01-13T11:00:00Z
 image: /images/post/post-3.png
-categories: ["assistance"]
+categories: ["ai tools"]
 featured: false
 draft: false
 ---
 
-Nemo vel ad consectetur namut rutrum ex, venenatis sollicitudin urna. Aliquam erat volutpat. Integer eu ipsum sem. Ut bibendum lacus vestibulum maximus suscipit. Quisque vitae nibh iaculis neque blandit euismod.
+Kabar baiknya, banyak AI tools berkualitas yang bisa dipakai gratis. Kamu tidak perlu mengeluarkan biaya untuk mulai merasakan manfaat kecerdasan buatan dalam pekerjaan sehari-hari.
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vel ad consectetur ut aperiam. Itaque eligendi natus aperiam? Excepturi repellendus consequatur quibusdam optio expedita praesentium est adipisci dolorem ut eius!
+## Untuk Menulis dan Mencari Ide
 
-## Covid-19 Situation
+AI chatbot gratis tersedia dalam berbagai platform dan bisa membantu menulis draf, menyusun email, hingga merangkum dokumen panjang. Cocok untuk mahasiswa maupun pekerja yang sering berhadapan dengan tulisan.
 
-Nam ut rutrum ex, venenatis sollicitudin urna. Aliquam erat volutpat. Integer eu ipsum sem. Ut bibendum lacus vestibulum maximus suscipit. Quisque vitae nibh iaculis neque blandit euismod.
+## Untuk Desain dan Gambar
 
-> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vel ad consectetur ut aperiam. Itaque eligendi natus aperiam? Excepturi repellendus consequatur quibusdam optio expedita praesentium est adipisci dolorem ut eius!
+Beberapa tools desain berbasis AI menyediakan versi gratis yang cukup mumpuni. Kamu bisa membuat ilustrasi, menghapus background, atau memperbesar gambar secara otomatis tanpa harus mahir menggunakan software desain.
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vel ad consectetur ut aperiam. Itaque eligendi natus aperiam? Excepturi repellendus consequatur quibusdam optio expedita praesentium est adipisci dolorem ut eius!
+## Untuk Produktivitas
 
-![alter-text](/images/post/post-1.png)
-*Example Caption*
+Ada juga AI yang membantu merangkum meeting, mencatat poin penting, dan menyusun jadwal. Dengan bantuan ini, pekerjaan administratif yang memakan waktu bisa diselesaikan dalam hitungan menit.
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vel ad consectetur ut aperiam. Itaque eligendi natus aperiam? Excepturi repellendus consequatur quibusdam optio expedita praesentium est adipisci dolorem ut eius! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vel ad consectetur ut aperiam. Itaque eligendi natus aperiam? Excepturi repellendus consequatur quibusdam optio expedita praesentium est adipisci dolorem ut eius!
+> Mulailah dari versi gratis, kenali fitur dan batasannya, lalu naik ke versi berbayar hanya jika benar-benar dibutuhkan.
+
+Rutinlah mencoba tools baru, karena lanskap AI berubah sangat cepat. Yang gratis hari ini bisa jadi lebih canggih bulan depan.

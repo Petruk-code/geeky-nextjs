@@ -17,7 +17,7 @@ const Pagination = ({ section, currentPage, totalPages }) => {
       {totalPages > 1 && (
         <nav
           className="item-center mb-4 flex justify-center space-x-1 lg:space-x-2"
-          aria-label="Pagination"
+          aria-label="Paginasi"
         >
           {/* previous */}
           {hasPrevPage ? (
@@ -27,18 +27,18 @@ const Pagination = ({ section, currentPage, totalPages }) => {
                   ? `${section ? "/" + section : "/"}`
                   : `${section ? "/" + section : ""}/page/${currentPage - 1}`
               }
-              className="flex items-center rounded-full px-2 py-1 text-3xl font-bold leading-none text-text-dark dark:text-darkmode-text-light"
+              className="flex items-center rounded-full px-2 py-1 text-2xl font-bold leading-none text-text-dark dark:text-darkmode-text-light"
             >
               <>
                 <BsArrowLeftShort />
-                <span className="ml-3 text-lg ">Previous</span>
+                <span className="ml-2 text-sm ">Sebelumnya</span>
               </>
             </Link>
           ) : (
-            <span className="flex items-center rounded-full px-2 py-1 text-3xl font-bold text-text-dark dark:text-darkmode-text-light ">
+            <span className="flex items-center rounded-full px-2 py-1 text-2xl font-bold text-text-dark dark:text-darkmode-text-light ">
               <>
                 <BsArrowLeftShort />
-                <span className="ml-3 text-lg">Previous</span>
+                <span className="ml-2 text-sm">Sebelumnya</span>
               </>
             </span>
           )}
@@ -49,7 +49,7 @@ const Pagination = ({ section, currentPage, totalPages }) => {
               {pagination === currentPage ? (
                 <span
                   aria-current="page"
-                  className={`inline-flex h-[38px] w-[38px] items-center justify-center rounded-full bg-primary px-4 py-1 font-secondary text-lg font-bold leading-none text-text-dark text-white dark:text-darkmode-text-light`}
+                  className={`inline-flex h-9 w-9 items-center justify-center rounded-full bg-primary px-3 py-1 font-secondary text-base font-bold leading-none text-white`}
                 >
                   {pagination}
                 </span>
@@ -62,7 +62,7 @@ const Pagination = ({ section, currentPage, totalPages }) => {
                   }
                   passHref
                   aria-current="page"
-                  className={`inline-flex h-[38px] w-[38px] items-center justify-center rounded-full px-4 py-1 font-secondary text-lg font-bold leading-none text-text-dark dark:text-darkmode-text-light`}
+                  className={`inline-flex h-9 w-9 items-center justify-center rounded-full px-3 py-1 font-secondary text-base font-bold leading-none text-text-dark dark:text-darkmode-text-light`}
                 >
                   {pagination}
                 </Link>
@@ -74,17 +74,17 @@ const Pagination = ({ section, currentPage, totalPages }) => {
           {hasNextPage ? (
             <Link
               href={`${section ? "/" + section : ""}/page/${currentPage + 1}`}
-              className="ml-4 flex items-center rounded-full px-2 py-1 text-3xl font-bold leading-none text-text-dark dark:text-darkmode-text-light"
+              className="ml-3 flex items-center rounded-full px-2 py-1 text-2xl font-bold leading-none text-text-dark dark:text-darkmode-text-light"
             >
               <>
-                <span className="mr-3 text-lg">Next</span>
+                <span className="mr-2 text-sm">Berikutnya</span>
                 <BsArrowRightShort />
               </>
             </Link>
           ) : (
-            <span className="ml-4 flex items-center rounded-full px-2 py-1 text-3xl font-bold text-text-dark dark:text-darkmode-text-light">
+            <span className="ml-3 flex items-center rounded-full px-2 py-1 text-2xl font-bold text-text-dark dark:text-darkmode-text-light">
               <>
-                <span className="mr-3 text-lg">Next</span>
+                <span className="mr-2 text-sm">Berikutnya</span>
                 <BsArrowRightShort />
               </>
             </span>

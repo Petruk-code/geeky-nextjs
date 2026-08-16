@@ -1,48 +1,33 @@
 {
   "main": [
     {
-      "name": "Home",
+      "name": "Beranda",
       "url": "/"
     },
     {
-      "name": "About",
+      "name": "Tentang",
       "url": "/about"
     },
     {
-      "name": "Elements",
-      "url": "/elements"
-    },
-    {
-      "name": "Contact",
+      "name": "Kontak",
       "url": "/contact"
-    },
-    {
-      "name": "Pages",
-      "url": "",
-      "hasChildren": true,
-      "children": [
-        {
-          "name": "Categories",
-          "url": "/categories"
-        }
-      ]
     }
   ],
   "footer": [
     {
-      "name": "Home",
+      "name": "Beranda",
       "url": "/"
     },
     {
-      "name": "About",
+      "name": "Tentang",
       "url": "/about"
     },
     {
-      "name": "Contact",
+      "name": "Kontak",
       "url": "/contact"
     },
     {
-      "name": "Privacy Policy",
+      "name": "Kebijakan Privasi",
       "url": "#"
     }
   ]

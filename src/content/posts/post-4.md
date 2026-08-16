@@ -1,25 +1,28 @@
 ---
-title: "How to make toys from old Olarpaper"
-date: 2022-04-04T04:00:00Z
+title: "Cara Mengatasi Software Desain Grafis yang Sering Lag"
+date: 2026-01-06T04:00:00Z
 image: /images/post/post-4.png
-categories: ["robotics", "programming"]
+categories: ["desain grafis"]
 featured: false
 draft: false
 ---
 
-Nemo vel ad consectetur namut rutrum ex, venenatis sollicitudin urna. Aliquam erat volutpat. Integer eu ipsum sem. Ut bibendum lacus vestibulum maximus suscipit. Quisque vitae nibh iaculis neque blandit euismod.
+Pernah tidak bekerja dengan file Photoshop atau CorelDRAW yang besar lalu tiba-tiba softwarenya lemot atau bahkan crash? Masalah ini sangat umum, terutama ketika file menyimpan banyak layer dan efek.
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vel ad consectetur ut aperiam. Itaque eligendi natus aperiam? Excepturi repellendus consequatur quibusdam optio expedita praesentium est adipisci dolorem ut eius!
+## Penyebab Software Desain Lemot
 
-## Covid-19 Situation
+File dengan resolusi tinggi, jumlah layer yang banyak, dan efek yang menumpuk adalah penyebab utama. Selain itu, ruang penyimpanan (scratch disk) yang hampir penuh juga membuat software berjalan sangat lambat.
 
-Nam ut rutrum ex, venenatis sollicitudin urna. Aliquam erat volutpat. Integer eu ipsum sem. Ut bibendum lacus vestibulum maximus suscipit. Quisque vitae nibh iaculis neque blandit euismod.
+## Solusi yang Bisa Langsung Dicoba
 
-> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vel ad consectetur ut aperiam. Itaque eligendi natus aperiam? Excepturi repellendus consequatur quibusdam optio expedita praesentium est adipisci dolorem ut eius!
+- Atur scratch disk ke drive dengan ruang kosong paling besar
+- Matikan panel preview atau tampilkan dalam mode outline
+- Gunakan fitur *merge* layer yang sudah tidak digunakan
+- Bersihkan cache aplikasi secara berkala
+- Tutup tab lain yang sedang tidak dipakai
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vel ad consectetur ut aperiam. Itaque eligendi natus aperiam? Excepturi repellendus consequatur quibusdam optio expedita praesentium est adipisci dolorem ut eius!
+> Performa software desain sangat bergantung pada kebiasaan kerja, bukan hanya spesifikasi laptop.
 
-![alter-text](/images/post/post-1.png)
-*Example Caption*
+## Kapan Harus Upgrade Perangkat?
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vel ad consectetur ut aperiam. Itaque eligendi natus aperiam? Excepturi repellendus consequatur quibusdam optio expedita praesentium est adipisci dolorem ut eius! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vel ad consectetur ut aperiam. Itaque eligendi natus aperiam? Excepturi repellendus consequatur quibusdam optio expedita praesentium est adipisci dolorem ut eius!
+Jika cara-cara di atas masih belum membantu dan kamu bekerja dengan file yang sangat besar setiap hari, saatnya mempertimbangkan upgrade RAM ke 16 GB atau 32 GB. SSD juga sangat membantu karena mempercepat proses membuka dan menyimpan file.

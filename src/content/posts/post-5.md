@@ -1,27 +1,30 @@
 ---
-title: "How to make toys from old Olarpaper"
-date: 2022-04-04T05:00:00Z
+title: "AutoCAD vs ArchiCAD: Mana yang Cocok untuk Arsitek?"
+date: 2026-01-07T05:00:00Z
 image: /images/post/post-5.png
-categories: ["assistance", "github"]
-featured: true
+categories: ["arsitektur"]
+featured: false
 draft: false
 ---
 
-Nemo vel ad consectetur namut rutrum ex, venenatis sollicitudin urna. Aliquam erat volutpat. Integer eu ipsum sem. Ut bibendum lacus vestibulum maximus suscipit. Quisque vitae nibh iaculis neque blandit euismod.
+Pilihan antara AutoCAD dan ArchiCAD sering menjadi perdebatan di kalangan arsitek. Masing-masing punya kelebihan dan kelemahan yang perlu disesuaikan dengan kebutuhan proyek.
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vel ad consectetur ut aperiam. Itaque eligendi natus aperiam? Excepturi repellendus consequatur quibusdam optio expedita praesentium est adipisci dolorem ut eius!
+## AutoCAD: Standar Industri Gambar 2D
 
-## Covid-19 Situation
+AutoCAD sudah lama menjadi standar untuk pembuatan gambar kerja dua dimensi. File DWG-nya diterima hampir di semua instansi dan kontraktor. Kelebihannya adalah presisi dan ekosistem yang luas, namun untuk pemodelan 3D arsitektur, AutoCAD terasa kurang efisien.
 
-Nam ut rutrum ex, venenatis sollicitudin urna. Aliquam erat volutpat. Integer eu ipsum sem. Ut bibendum lacus vestibulum maximus suscipit. Quisque vitae nibh iaculis neque blandit euismod.
+## ArchiCAD: BIM yang Ramah Arsitek
 
-> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vel ad consectetur ut aperiam. Itaque eligendi natus aperiam? Excepturi repellendus consequatur quibusdam optio expedita praesentium est adipisci dolorem ut eius!
+ArchiCAD adalah software berbasis BIM yang memungkinkan arsitek memodelkan bangunan dalam 3D sekaligus menghasilkan gambar 2D secara otomatis. Ketika kamu mengubah desain, semua tampilan lain ikut terupdate dengan sendirinya.
 
-## Work From Home
+## Perbandingan Singkat
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vel ad consectetur ut aperiam. Itaque eligendi natus aperiam? Excepturi repellendus consequatur quibusdam optio expedita praesentium est adipisci dolorem ut eius!
+| Aspek | AutoCAD | ArchiCAD |
+|-------|---------|----------|
+| Fokus utama | Gambar 2D presisi | BIM 3D |
+| Kurva belajar | Mudah untuk dasar | Sedikit lebih rumit |
+| Kolaborasi | DWG di mana-mana | IFC & BIM |
 
-![alter-text](/images/post/post-1.png)
-*Example Caption*
+> Untuk proyek skala kecil sampai menengah, ArchiCAD bisa menghemat banyak waktu. Namun AutoCAD tetap diperlukan untuk detail konstruksi.
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vel ad consectetur ut aperiam. Itaque eligendi natus aperiam? Excepturi repellendus consequatur quibusdam optio expedita praesentium est adipisci dolorem ut eius! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vel ad consectetur ut aperiam. Itaque eligendi natus aperiam? Excepturi repellendus consequatur quibusdam optio expedita praesentium est adipisci dolorem ut eius!quatur quibusdam optio expedita praesentium est adipisci dolorem ut eius!
+Kesimpulannya, banyak praktisi justru menguasai keduanya. AutoCAD untuk gambar kerja dan koordinasi, ArchiCAD untuk desain dan dokumentasi BIM.

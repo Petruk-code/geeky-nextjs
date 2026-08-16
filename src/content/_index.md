@@ -1,19 +1,19 @@
 ---
 banner:
-  title: Welcome **!**
-  title_small: "to John Bravo's Blog"
-  content: Are Developer and recently started your own business Already made website to ensure presence wants to develop.
+  title: Selamat Datang **!**
+  title_small: "di Blog John Bravo"
+  content: Membahas software teknik sipil, arsitektur, dan desain grafis — plus solusi error instalasi, tips performa, teknologi web, dan rekomendasi AI tools gratis maupun berbayar.
   image_enable: true
   image: /images/banner-author.png
   button:
     enable: true
-    label: Know About Me
+    label: Kenali Saya
     link: /about
     rel: ""
 
 featured_posts:
   enable: true
-  title: Featured Posts
+  title: Postingan Unggulan
 
 promotion:
   enable: true
@@ -21,7 +21,7 @@ promotion:
   link: "#"
 
 recent_posts:
-  title: Recent Posts
+  title: Postingan Terbaru
   enable: true
 
 ---

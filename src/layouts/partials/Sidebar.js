@@ -27,7 +27,7 @@ const Sidebar = ({ posts, categories, className }) => {
   return (
     <aside className={`${className} px-0 lg:px-6 lg:col-4`}>
       {about.enable && (
-        <div className="relative rounded border border-border p-6 text-center dark:border-darkmode-border">
+        <div className="relative rounded border border-border p-5 text-center dark:border-darkmode-border">
           <ImageFallback
             className="-z-[1]"
             src="/images/map.svg"
@@ -35,9 +35,9 @@ const Sidebar = ({ posts, categories, className }) => {
             alt="bg-map"
           />
           <Logo />
-          {markdownify(about.content, "p", "mt-8")}
+          {markdownify(about.content, "p", "mt-6")}
           <Social
-            className="socials sidebar-socials mt-6 justify-center"
+            className="socials sidebar-socials mt-4 justify-center"
             source={social}
           />
         </div>
@@ -45,14 +45,14 @@ const Sidebar = ({ posts, categories, className }) => {
 
       {/* categories widget */}
       {categories.enable && (
-        <div className="mt-6 rounded border border-border p-6 dark:border-darkmode-border">
-          <h4 className="section-title mb-12 text-center">
+        <div className="mt-5 rounded border border-border p-5 dark:border-darkmode-border">
+          <h4 className="section-title text-center">
             {featured_posts.title}
           </h4>
           <ul>
             {categories.map((category, i) => (
               <li
-                className={`relative mb-2 flex items-center justify-between pl-6 text-[16px] font-bold capitalize text-text-dark dark:text-darkmode-text-light ${
+                className={`relative mb-1 flex items-center justify-between pl-6 text-[15px] font-bold capitalize text-text-dark dark:text-darkmode-text-light ${
                   i !== categories.length - 1 &&
                   "border-b border-border  dark:border-darkmode-border"
                 }`}
@@ -60,8 +60,8 @@ const Sidebar = ({ posts, categories, className }) => {
               >
                 <svg
                   className="absolute left-0 top-2.5"
-                  width="20px"
-                  height="20px"
+                  width="18px"
+                  height="18px"
                   viewBox="0 0 20 20"
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
@@ -75,8 +75,8 @@ const Sidebar = ({ posts, categories, className }) => {
                     fill="#2ba283"
                   />
                 </svg>
-                <Link className="py-2" href={`/categories/${category.name}`}>
-                  {category.name.replace("-", " ")}
+                <Link className="py-1.5" href={`/categories/${category.name}`}>
+                  {category.title || category.name.replace("-", " ")}
                   <span className="absolute top-1/2 right-0 -translate-y-1/2 text-[10px] text-gray-500">
                     {category.posts}
                   </span>
@@ -89,24 +89,24 @@ const Sidebar = ({ posts, categories, className }) => {
 
       {/* featured widget */}
       {featured_posts.enable && (
-        <div className="mt-6 rounded border border-border p-6 dark:border-darkmode-border">
-          <h4 className="section-title mb-12 text-center">Featured</h4>
-          <div className="mb-12 flex items-center justify-center">
+        <div className="mt-5 rounded border border-border p-5 dark:border-darkmode-border">
+          <h4 className="section-title text-center">Unggulan</h4>
+          <div className="mb-6 flex items-center justify-center">
             <button
-              className={`btn px-5 py-2 ${
+              className={`btn px-4 py-2 ${
                 showRecent ? "btn-outline-primary" : "btn-primary"
               }`}
               onClick={() => setShowRecent(false)}
             >
-              Featured
+              Unggulan
             </button>
             <button
-              className={`btn ml-3  px-5 py-2 ${
+              className={`btn ml-3  px-4 py-2 ${
                 showRecent ? "btn-primary" : "btn-outline-primary"
               }`}
               onClick={() => setShowRecent(true)}
             >
-              Recent
+              Terbaru
             </button>
           </div>
           {showRecent
@@ -116,24 +116,24 @@ const Sidebar = ({ posts, categories, className }) => {
                   <div
                     className={`flex items-center ${
                       i !== arr.length - 1 &&
-                      "mb-6 border-b border-border pb-6 dark:border-darkmode-border"
+                      "mb-4 border-b border-border pb-4 dark:border-darkmode-border"
                     }`}
                     key={`key-${i}`}
                   >
                     {post.frontmatter.image && (
                       <ImageFallback
-                        className="mr-3 h-[85px] w-[85px] rounded-full object-cover"
+                        className="mr-3 h-16 w-16 shrink-0 rounded-full object-cover"
                         src={post.frontmatter.image}
                         alt={post.frontmatter.title}
-                        width={105}
-                        height={85}
+                        width={64}
+                        height={64}
                       />
                     )}
                     <div>
-                      <h3 className="h5 mb-2">
+                      <h3 className="mb-1 line-clamp-2">
                         <Link
                           href={`/${blog_folder}/${post.slug}`}
-                          className="block hover:text-primary"
+                          className="block text-sm font-bold hover:text-primary"
                         >
                           {post.frontmatter.title}
                         </Link>
@@ -149,26 +149,26 @@ const Sidebar = ({ posts, categories, className }) => {
                 .slice(0, featured_posts.showPost)
                 .map((post, i, arr) => (
                   <div
-                    className={`flex items-center pb-6 ${
+                    className={`flex items-center pb-4 ${
                       i !== arr.length - 1 &&
-                      "mb-6 border-b dark:border-b-darkmode-border"
+                      "mb-4 border-b dark:border-b-darkmode-border"
                     }`}
                     key={`key-${i}`}
                   >
                     {post.frontmatter.image && (
                       <ImageFallback
-                        className="mr-3 h-[85px] w-[85px] rounded-full object-cover"
+                        className="mr-3 h-16 w-16 shrink-0 rounded-full object-cover"
                         src={post.frontmatter.image}
                         alt={post.frontmatter.title}
-                        width={105}
-                        height={85}
+                        width={64}
+                        height={64}
                       />
                     )}
                     <div>
-                      <h3 className="h5 mb-2">
+                      <h3 className="mb-1 line-clamp-2">
                         <Link
                           href={`/${blog_folder}/${post.slug}`}
-                          className="block hover:text-primary"
+                          className="block text-sm font-bold hover:text-primary"
                         >
                           {post.frontmatter.title}
                         </Link>
@@ -185,9 +185,9 @@ const Sidebar = ({ posts, categories, className }) => {
 
       {/* newsletter */}
       {newsletter.enable && (
-        <div className="mt-6  rounded border border-border p-6 text-center dark:border-darkmode-border">
+        <div className="mt-5  rounded border border-border p-5 text-center dark:border-darkmode-border">
           <h4 className="section-title">{newsletter.title}</h4>
-          <p className="mt-10 text-xs">{newsletter.content}</p>
+          <p className="mt-6 text-xs">{newsletter.content}</p>
           <MailchimpSubscribe
             url={newsletter.malichip_url}
             render={({ subscribe, status, message }) => (
@@ -199,12 +199,12 @@ const Sidebar = ({ posts, categories, className }) => {
             )}
           />
           <p className="text-xs">
-            By Singing Up, You Agree To
+            Dengan Mendaftar, Kamu Menyetujui
             <Link
               href={newsletter.privacy_policy_page}
               className="ml-1 text-primary"
             >
-              Privacy Policy
+              Kebijakan Privasi
             </Link>
           </p>
         </div>

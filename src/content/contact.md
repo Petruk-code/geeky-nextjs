@@ -1,9 +1,9 @@
 ---
-title: "Let’s, Talk </br> About You"
-description: "meta description"
+title: "Mari, Bicara </br> Tentangmu"
+description: "deskripsi meta"
 phone: "+211234565523"
 mail: "info@email.com"
-location: "9567 Turner Trace Apt. BC C3G8A4"
+location: "Jl. Merdeka No. 45, Jakarta"
 form_action: "#"
 layout: "contact"
 addresses:
@@ -14,7 +14,7 @@ addresses:
     content: info@email.com
     link: mailto:info@email.com
   - icon: FaLocation
-    content: 9567 Turner Trace Apt. BC C3G8A4
+    content: Jl. Merdeka No. 45, Jakarta
 
 draft: false
 ---

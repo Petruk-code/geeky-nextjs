@@ -5,18 +5,28 @@ import theme from "@config/theme.json";
 import TwSizeIndicator from "@layouts/components/TwSizeIndicator";
 import Footer from "@layouts/partials/Footer";
 import Header from "@layouts/partials/Header";
+import { getTaxonomy, getCategoryMeta } from "@lib/taxonomyParser";
+import { humanize } from "@lib/utils/textConverter";
 
 const { site } = config;
 const { font_family } = theme.fonts;
 const { favicon } = config.site;
+const { blog_folder } = config.settings;
 
 export const metadata = {
   title: site.title,
 };
 
 export default function RootLayout({ children }) {
+  const categories = getTaxonomy(`src/content/${blog_folder}`, "categories");
+  const categoryMeta = getCategoryMeta();
+  const categoriesWithTitles = categories.map((category) => {
+    const metaItem = categoryMeta.find((item) => item.slug === category);
+    return { slug: category, title: metaItem?.title || humanize(category) };
+  });
+
   return (
-    <html lang="en" className="antialiased" suppressHydrationWarning>
+    <html lang="id" className="antialiased" suppressHydrationWarning>
       <head>
         <link rel="shortcut icon" href={favicon} />
         <meta name="theme-name" content="geeky-nextjs" />
@@ -44,7 +54,7 @@ export default function RootLayout({ children }) {
       </head>
       <body>
         <Providers>
-          <Header />
+          <Header categories={categories} />
           <main>{children}</main>
           <Footer />
         </Providers>

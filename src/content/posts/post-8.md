@@ -1,25 +1,26 @@
 ---
-title: "Drone Software and Development"
-date: 2022-04-04T08:00:00Z
+title: "Rekomendasi Software Arsitektur untuk Desain Rumah"
+date: 2026-01-10T08:00:00Z
 image: /images/post/post-8.png
-categories: ["drone", "robotics"]
+categories: ["arsitektur"]
 featured: true
 draft: false
 ---
 
-Nemo vel ad consectetur namut rutrum ex, venenatis sollicitudin urna. Aliquam erat volutpat. Integer eu ipsum sem. Ut bibendum lacus vestibulum maximus suscipit. Quisque vitae nibh iaculis neque blandit euismod.
+Memilih software arsitektur yang tepat sangat menentukan kelancaran proses desain rumah. Ada banyak pilihan, dari yang gratis hingga berbayar dengan fitur lengkap. Berikut rekomendasinya.
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vel ad consectetur ut aperiam. Itaque eligendi natus aperiam? Excepturi repellendus consequatur quibusdam optio expedita praesentium est adipisci dolorem ut eius!
+## SketchUp: Simpel dan Mudah Dipelajari
 
-## Covid-19 Situation
+SketchUp sangat cocok untuk pemula berkat antarmuka yang intuitif. Kamu bisa membuat model 3D rumah dengan cepat, meskipun untuk level presisi dan dokumentasi, kemampuannya terbatas.
 
-Nam ut rutrum ex, venenatis sollicitudin urna. Aliquam erat volutpat. Integer eu ipsum sem. Ut bibendum lacus vestibulum maximus suscipit. Quisque vitae nibh iaculis neque blandit euismod.
+## Revit: BIM Profesional
 
-> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vel ad consectetur ut aperiam. Itaque eligendi natus aperiam? Excepturi repellendus consequatur quibusdam optio expedita praesentium est adipisci dolorem ut eius!
+Revit adalah standar industri untuk proyek besar. Semua data bangunan — dari struktur, arsitektur, hingga MEP — bisa diintegrasikan dalam satu model. Kekurangannya, kurva belajarnya cukup tinggi dan butuh spesifikasi laptop yang mumpuni.
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vel ad consectetur ut aperiam. Itaque eligendi natus aperiam? Excepturi repellendus consequatur quibusdam optio expedita praesentium est adipisci dolorem ut eius!
+## ArchiCAD: Alternatif BIM yang Ramah
 
-![alter-text](/images/post/post-1.png)
-*Example Caption*
+ArchiCAD menawarkan keunggulan BIM dengan pendekatan yang lebih bersahabat bagi arsitek. Proses pembuatan gambar kerja jadi lebih cepat karena otomatis dari model 3D.
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vel ad consectetur ut aperiam. Itaque eligendi natus aperiam? Excepturi repellendus consequatur quibusdam optio expedita praesentium est adipisci dolorem ut eius! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vel ad consectetur ut aperiam. Itaque eligendi natus aperiam? Excepturi repellendus consequatur quibusdam optio expedita praesentium est adipisci dolorem ut eius!
+> Software terbaik bukan yang paling mahal, tapi yang paling sesuai dengan skala proyek dan kemampuanmu.
+
+Untuk proyek desain rumah tinggal, SketchUp + AutoCAD sudah cukup. Untuk skala yang lebih besar, pelan-pelan transisi ke Revit atau ArchiCAD.

@@ -1,16 +1,23 @@
 {
   "site": {
-    "title": "Geeky Nextjs",
+    "title": "Geeky — Blog Pribadi",
     "base_url": "/",
     "favicon": "/images/favicon.png",
     "logo": "/images/logo.png",
     "logo_white": "/images/logo-light.png",
     "logo_width": "150",
     "logo_height": "39",
-    "logo_text": "Geeky"
+    "logo_text": "Geeky",
+    "cta": {
+      "enable": true,
+      "label": "Mulai Sekarang",
+      "link": "/contact"
+    }
   },
   "settings": {
-    "searchable_folders": ["posts"],
+    "searchable_folders": [
+      "posts"
+    ],
     "theme_switcher": true,
     "default_theme": "system",
     "pagination": 6,
@@ -23,32 +30,32 @@
   },
   "params": {
     "tag_manager_id": "",
-    "footer_content": "Lorem ipsum dolor sit amt, conse adip iscing. donec iaculis tempasus laoreet. Libero ullam rgscper.",
-    "copyright": "Designed and Developed By [Statichunt](https://statichunt.com/)"
+    "footer_content": "Blog pribadi tentang software teknik sipil, arsitektur, desain grafis, teknologi web, dan AI tools — lengkap dengan solusi error dan tips performa.",
+    "copyright": "Dirancang dan Dikembangkan oleh [Statichunt](https://statichunt.com/)"
   },
   "metadata": {
     "meta_author": "Statichunt",
     "meta_image": "/images/og-image.png",
-    "meta_description": "Geeky Nextjs Personal Blog Template"
+    "meta_description": "Blog tentang software teknik sipil, arsitektur, desain grafis, teknologi web, dan AI tools."
   },
   "widgets": {
     "about": {
       "enable": true,
-      "content": "Lorem ipsum dolor sit amet, conse tfctetur adipiscing elit. Vel in in donec iaculis tempasus odio nunc laoreet . Libero ullam rgscorper."
+      "content": "Halo, saya John Bravo. Berbagi tips seputar software teknik, desain, dan teknologi terbaru."
     },
     "featured_posts": {
       "enable": true,
-      "title": "Blog Categories",
+      "title": "Kategori Blog",
       "showPost": 3
     },
     "categories": {
       "enable": true,
-      "title": "Blog Categories"
+      "title": "Kategori Blog"
     },
     "newsletter": {
       "enable": true,
       "title": "Newsletter",
-      "content": "Join thousands of Tiny Salt subscribers and get our best recipes delivered each week!",
+      "content": "Berlangganan untuk mendapat artikel terbaru tentang software, desain, dan AI langsung di inbox kamu!",
       "privacy_policy_page": "#",
       "malichipm_url": ""
     }

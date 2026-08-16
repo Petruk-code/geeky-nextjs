@@ -1,25 +1,27 @@
 ---
-title: "How to make toys from old Olarpaper"
-date: 2022-04-04T06:00:00Z
+title: "Cara Install ETABS di Laptop Spesifikasi Rendah"
+date: 2026-01-08T06:00:00Z
 image: /images/post/post-6.png
-categories: ["artificial-intelligence", "programming"]
+categories: ["teknik sipil"]
 featured: true
 draft: false
 ---
 
-Nemo vel ad consectetur namut rutrum ex, venenatis sollicitudin urna. Aliquam erat volutpat. Integer eu ipsum sem. Ut bibendum lacus vestibulum maximus suscipit. Quisque vitae nibh iaculis neque blandit euismod.
+ETABS adalah software analisis struktur yang wajib dikuasai mahasiswa teknik sipil. Sayangnya, tidak semua orang punya laptop gaming dengan spesifikasi tinggi. Kabar baiknya, ETABS masih bisa berjalan di laptop standar asalkan dirawat dengan benar.
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vel ad consectetur ut aperiam. Itaque eligendi natus aperiam? Excepturi repellendus consequatur quibusdam optio expedita praesentium est adipisci dolorem ut eius!
+## Sebelum Instalasi
 
-## Covid-19 Situation
+Pastikan kamu sudah menonaktifkan antivirus sementara dan menutup semua aplikasi lain. Proses instalasi ETABS cukup ringan, tetapi saat analisis berjalan, software ini akan mengonsumsi RAM dalam jumlah besar.
 
-Nam ut rutrum ex, venenatis sollicitudin urna. Aliquam erat volutpat. Integer eu ipsum sem. Ut bibendum lacus vestibulum maximus suscipit. Quisque vitae nibh iaculis neque blandit euismod.
+## Langkah Instalasi yang Aman
 
-> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vel ad consectetur ut aperiam. Itaque eligendi natus aperiam? Excepturi repellendus consequatur quibusdam optio expedita praesentium est adipisci dolorem ut eius!
+1. Jalankan installer dengan mode administrator
+2. Ikuti panduan hingga selesai tanpa membuka aplikasi lain
+3. Aktifkan kembali antivirus setelah instalasi selesai
+4. Jalankan ETABS dan atur pengaturan grafis ke mode yang lebih ringan
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vel ad consectetur ut aperiam. Itaque eligendi natus aperiam? Excepturi repellendus consequatur quibusdam optio expedita praesentium est adipisci dolorem ut eius!
+> Jangan panik jika proses instalasi terlihat lama — itu normal untuk laptop dengan spesifikasi standar.
 
-![alter-text](/images/post/post-1.png)
-*Example Caption*
+## Tips Menjaga Performa
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vel ad consectetur ut aperiam. Itaque eligendi natus aperiam? Excepturi repellendus consequatur quibusdam optio expedita praesentium est adipisci dolorem ut eius! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vel ad consectetur ut aperiam. Itaque eligendi natus aperiam? Excepturi repellendus consequatur quibusdam optio expedita praesentium est adipisci dolorem ut eius!
+Untuk laptop dengan RAM 8 GB, tutup browser dan aplikasi lain saat menjalankan analisis. Gunakan model dengan jumlah elemen seminimal mungkin di awal. Simpan file secara berkala untuk menghindari kehilangan pekerjaan jika aplikasi crash.

@@ -1,25 +1,26 @@
 ---
-title: "Github Repository Controls"
-date: 2022-04-04T09:00:00Z
+title: "Dasar-Dasar Web Stack: Panduan untuk Pemula"
+date: 2026-01-11T09:00:00Z
 image: /images/post/post-1.png
-categories: ["workstation", "youtube"]
+categories: ["teknologi web"]
 featured: false
 draft: false
 ---
 
-Nemo vel ad consectetur namut rutrum ex, venenatis sollicitudin urna. Aliquam erat volutpat. Integer eu ipsum sem. Ut bibendum lacus vestibulum maximus suscipit. Quisque vitae nibh iaculis neque blandit euismod.
+Memahami web stack adalah langkah awal penting bagi siapa pun yang ingin membangun website. Web stack adalah kombinasi teknologi yang bekerja bersama untuk menampilkan website di browser.
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vel ad consectetur ut aperiam. Itaque eligendi natus aperiam? Excepturi repellendus consequatur quibusdam optio expedita praesentium est adipisci dolorem ut eius!
+## Tiga Pilar Utama
 
-## Covid-19 Situation
+Web stack secara garis besar terbagi menjadi tiga bagian: frontend, backend, dan database. Frontend adalah apa yang dilihat pengguna, backend adalah logika di balik layar, dan database adalah tempat penyimpanan data.
 
-Nam ut rutrum ex, venenatis sollicitudin urna. Aliquam erat volutpat. Integer eu ipsum sem. Ut bibendum lacus vestibulum maximus suscipit. Quisque vitae nibh iaculis neque blandit euismod.
+## Frontend: Tampilan di Mata Pengguna
 
-> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vel ad consectetur ut aperiam. Itaque eligendi natus aperiam? Excepturi repellendus consequatur quibusdam optio expedita praesentium est adipisci dolorem ut eius!
+HTML mengatur struktur halaman, CSS mengatur tampilan, dan JavaScript memberikan interaksi. Untuk mempermudah pengembangan, banyak developer menggunakan framework seperti React, Vue, atau Next.js.
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vel ad consectetur ut aperiam. Itaque eligendi natus aperiam? Excepturi repellendus consequatur quibusdam optio expedita praesentium est adipisci dolorem ut eius!
+## Backend dan Database
 
-![alter-text](/images/post/post-1.png)
-*Example Caption*
+Di sisi server, bahasa seperti Node.js, Python, dan PHP mengolah permintaan dari pengguna. Sementara itu, data disimpan di database seperti PostgreSQL, MySQL, atau MongoDB.
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vel ad consectetur ut aperiam. Itaque eligendi natus aperiam? Excepturi repellendus consequatur quibusdam optio expedita praesentium est adipisci dolorem ut eius! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vel ad consectetur ut aperiam. Itaque eligendi natus aperiam? Excepturi repellendus consequatur quibusdam optio expedita praesentium est adipisci dolorem ut eius!
+> Kamu tidak perlu menguasai semua teknologi sekaligus. Mulailah dari satu bahasa, pelajari pola pikirnya, lalu perluas.
+
+Pilih satu stack yang paling masuk akal bagi kamu, misalnya JavaScript di semua lini (MERN atau Next.js), dan fokuslah mendalam dulu sebelum mencoba teknologi lain.

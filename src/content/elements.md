@@ -1,5 +1,5 @@
 ---
-title: "Elements"
+title: "Elemen"
 draft: false
 ---
 
@@ -17,89 +17,89 @@ draft: false
 
 ---
 
-### Paragraph
+### Paragraf
 
-Did you come here for something in particular or just general Riker-bashing? And blowing into maximum warp speed, you appeared for an instant to be in two places at once. We have a saboteur aboard. We know you’re dealing in stolen ore. But I wanna talk about the assassination attempt on Lieutenant Worf. Could someone survive inside a transporter buffer for 75 years? Fate. It protects fools, little children, and ships.
+Apakah kamu datang ke sini untuk sesuatu yang spesifik atau sekadar ingin membaca tulisan santai? Setiap artikel di sini disusun dengan bahasa yang ringan namun tetap mendalam. Kami membahas berbagai topik menarik, mulai dari teknologi, pemrograman, hingga tips produktivitas sehari-hari.
 
-Did you come here for something in particular or just general Riker-bashing? And blowing into maximum warp speed, you appeared for an instant to be in two places at once. We have a saboteur aboard. We know you’re dealing in stolen ore. But I wanna talk about the assassination attempt on Lieutenant Worf. Could someone survive inside a transporter buffer for 75 years? Fate. It protects fools, little children, and ships.
-
----
-
-### Emphasis
-
-1. Did you come here for something in **particular** or just general
-
-2. Did you come here for something in <ins>particular</ins>
-
-3. _Did you come here_
-
-4. Did you come here for **something** in particular
-
-5. Did you come here for something in particular
-
-6. Did you come here for something in particular
-
-7. URLs and URLs in angle brackets will automatically get turned into links. [http://www.example.com](http://www.example.com) or
-
-8. [http://www.example.com](http://www.example.com) and sometimes example.com (but not on Github, for example).
+Konten yang baik adalah konten yang mudah dipahami dan bermanfaat bagi pembacanya. Karena itu, setiap paragraf ditulis dengan struktur yang jelas, didukung contoh nyata, serta dikemas agar nyaman dibaca di layar maupun perangkat seluler.
 
 ---
 
-### Link
+### Penekanan
 
-[I'm an inline-style link](https://www.google.com)
+1. Apakah kamu datang ke sini untuk sesuatu yang **spesifik** atau sekadar membaca santai
 
-[I'm an inline-style link with title](https://www.google.com "Google's Homepage")
+2. Apakah kamu datang ke sini untuk sesuatu yang <ins>spesifik</ins>
 
-[I'm a reference-style link][arbitrary case-insensitive reference text]
+3. _Apakah kamu datang ke sini_
 
-[I'm a relative reference to a repository file](../blob/master/LICENSE)
+4. Apakah kamu datang ke sini untuk **sesuatu** yang spesifik
 
-[You can use numbers for reference-style link definitions][1]
+5. Apakah kamu datang ke sini untuk sesuatu yang spesifik
 
-Or leave it empty and use the [link text itself].
+6. Apakah kamu datang ke sini untuk sesuatu yang spesifik
 
-example.com (but not on Github, for example).
+7. URL dan URL dalam tanda kurung siku akan otomatis berubah menjadi tautan. [http://www.example.com](http://www.example.com) atau
 
-Some text to show that the reference links can follow later.
+8. [http://www.example.com](http://www.example.com) dan terkadang example.com (tapi tidak di GitHub, misalnya).
 
-[arbitrary case-insensitive reference text]: https://www.themefisher.com
+---
+
+### Tautan
+
+[Ini tautan inline](https://www.google.com)
+
+[Ini tautan inline dengan judul](https://www.google.com "Halaman Google")
+
+[Ini tautan gaya referensi][teks referensi yang tidak peka huruf besar]
+
+[Ini referensi relatif ke file repository](../blob/master/LICENSE)
+
+[Kamu bisa menggunakan angka untuk definisi tautan gaya referensi][1]
+
+Atau biarkan kosong dan gunakan [teks tautan itu sendiri].
+
+example.com (tapi tidak di GitHub, misalnya).
+
+Beberapa teks untuk menunjukkan bahwa tautan referensi bisa mengikuti di belakang.
+
+[teks referensi yang tidak peka huruf besar]: https://www.themefisher.com
 [1]: https://gethugothemes.com
-[link text itself]: https://www.getjekyllthemes.com
+[teks tautan itu sendiri]: https://www.getjekyllthemes.com
 
 ---
 
-### Ordered List
+### Daftar Bernomor
 
-1. List item
-2. List item
-3. List item
-4. List item
-5. List item
-
----
-
-### Unordered List
-
-- List item
-- List item
-- List item
-- List item
-- List item
+1. Item daftar
+2. Item daftar
+3. Item daftar
+4. Item daftar
+5. Item daftar
 
 ---
 
-### Code and Syntax Highlighting
+### Daftar Tanpa Nomor
+
+- Item daftar
+- Item daftar
+- Item daftar
+- Item daftar
+- Item daftar
+
+---
+
+### Kode dan Penyorotan Sintaks
 
 #### HTML
 
 ```html
 <ul>
   <li class="nav-item">
-    <a class="nav-link" href="/">Home</a>
+    <a class="nav-link" href="/">Beranda</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="about/">About</a>
+    <a class="nav-link" href="about/">Tentang</a>
   </li>
 </ul>
 ```
@@ -129,34 +129,34 @@ window.addEventListener("load", (e) => {
 
 ---
 
-### Button
+### Tombol
 
-<Button href="#" type="solid">Button</Button>
-
----
-
-### Quote
-
-> Did you come here for something in particular or just general Riker-bashing? And blowing into maximum warp speed, you appeared for an instant to be in two places at once.
+<Button href="#" type="solid">Tombol</Button>
 
 ---
 
-### Notice
+### Kutipan
+
+> Apakah kamu datang ke sini untuk sesuatu yang spesifik atau sekadar membaca santai? Setiap artikel di sini disusun dengan bahasa yang ringan namun tetap mendalam.
+
+---
+
+### Pemberitahuan
 
 <Notice type="note">
-  This is a simple note.
+  Ini adalah catatan sederhana.
 </Notice>
 
 <Notice type="tip">
-  This is a simple note.
+  Ini adalah catatan sederhana.
 </Notice>
 
 <Notice type="info">
-  This is a simple note.
+  Ini adalah catatan sederhana.
 </Notice>
 
 <Notice type="warning">
-  This is a simple note.
+  Ini adalah catatan sederhana.
 </Notice>
 
 ---
@@ -165,89 +165,87 @@ window.addEventListener("load", (e) => {
 
 <Tab name="Tab 1">
 
-#### Did you come here for something in particular?
+#### Apakah kamu datang ke sini untuk sesuatu yang spesifik?
 
-Did you come here for something in particular or just general Riker-bashing? And blowing into maximum warp speed, you appeared for an instant to be in two places at once. We have a saboteur aboard. We know you’re dealing in stolen ore. But I wanna talk about the assassination attempt on Lieutenant Worf.
+Apakah kamu datang ke sini untuk sesuatu yang spesifik atau sekadar membaca santai? Setiap artikel di sini disusun dengan bahasa yang ringan namun tetap mendalam. Kami membahas berbagai topik menarik dan menyajikannya dengan cara yang mudah dipahami.
 </Tab>
 
 <Tab name="Tab 2">
 
-#### I wanna talk about the assassination attempt
+#### Kami akan membahas berbagai topik menarik
 
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+Konten disusun dengan bahasa yang ringan namun tetap mendalam. Kami membahas berbagai topik menarik dan menyajikannya dengan cara yang mudah dipahami. Semoga tulisan ini bermanfaat dan bisa menjadi referensi yang baik bagi para pembaca.
 
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+Konten disusun dengan bahasa yang ringan namun tetap mendalam. Kami membahas berbagai topik menarik dan menyajikannya dengan cara yang mudah dipahami. Semoga tulisan ini bermanfaat dan bisa menjadi referensi yang baik bagi para pembaca.
 </Tab>
 
 <Tab name="Tab 3">
 
-#### We know you’re dealing in stolen ore
+#### Konten yang baik mudah dipahami
 
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo
+Konten disusun dengan bahasa yang ringan namun tetap mendalam. Kami membahas berbagai topik menarik dan menyajikannya dengan cara yang mudah dipahami. Semoga tulisan ini bermanfaat dan bisa menjadi referensi yang baik bagi para pembaca.
 </Tab>
 
 </Tabs>
 
 ---
 
-### Table
+### Tabel
 
-| #   |    First     |     Last     |       Handle |
+| #   |    Pertama    |     Kedua     |       Handle |
 | :-- | :----------: | :----------: | :----------: |
-| 1   | Row:1 Cell:1 | Row:1 Cell:2 | Row:1 Cell:3 |
-| 2   | Row:2 Cell:1 | Row:2 Cell:2 | Row:2 Cell:3 |
-| 3   | Row:3 Cell:1 | Row:3 Cell:2 | Row:3 Cell:3 |
+| 1   | Baris:1 Sel:1 | Baris:1 Sel:2 | Baris:1 Sel:3 |
+| 2   | Baris:2 Sel:1 | Baris:2 Sel:2 | Baris:2 Sel:3 |
+| 3   | Baris:3 Sel:1 | Baris:3 Sel:2 | Baris:3 Sel:3 |
 
 ---
 
-### Collapse
+### Ringkas
 
-<Accordion title="Why should you need to do this?">
+<Accordion title="Kenapa kamu perlu melakukan ini?">
 
-- This is a thing.
-- This is a thing.
-- This is a thing.
-- This is a thing.
-- This is a thing.
-
-</Accordion>
-
-<Accordion title="How can I adjust Horizontal centering">
-
-- This is a thing.
-- This is a thing.
-- This is a thing.
-- This is a thing.
-- This is a thing.
+- Ini adalah sesuatu.
+- Ini adalah sesuatu.
+- Ini adalah sesuatu.
+- Ini adalah sesuatu.
+- Ini adalah sesuatu.
 
 </Accordion>
 
-<Accordion title="Should you use Negative margin?">
+<Accordion title="Bagaimana cara menyesuaikan perataan horizontal?">
 
-- This is a thing.
-- This is a thing.
-- This is a thing.
-- This is a thing.
-- This is a thing.
+- Ini adalah sesuatu.
+- Ini adalah sesuatu.
+- Ini adalah sesuatu.
+- Ini adalah sesuatu.
+- Ini adalah sesuatu.
+
+</Accordion>
+
+<Accordion title="Haruskah kamu menggunakan margin negatif?">
+
+- Ini adalah sesuatu.
+- Ini adalah sesuatu.
+- Ini adalah sesuatu.
+- Ini adalah sesuatu.
+- Ini adalah sesuatu.
 
 </Accordion>
 
 ---
 
-### Image
+### Gambar
 
 ![image](/images/post/post-1.png)
 
 ---
 
-### Youtube video
+### Video Youtube
 
-<Youtube id="ZEe-IFezQok" title="Play:Youtube"/>
+<Youtube id="ZEe-IFezQok" title="Putar:Youtube"/>
 
 ---
 
-### Custom video
+### Video Kustom
 
 <Video width="100%" src="https://joy1.videvo.net/videvo_files/video/free/video0467/large_watermarked/_import_61516692993d77.04238324_preview.mp4" />

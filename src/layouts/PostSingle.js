@@ -2,7 +2,6 @@
 
 import config from "@config/config.json";
 import InnerPagination from "@layouts/components/InnerPagination";
-import MDXContent from "@layouts/partials/MDXContent";
 import dateFormat from "@lib/utils/dateFormat";
 import { markdownify } from "@lib/utils/textConverter";
 import { DiscussionEmbed } from "disqus-react";
@@ -22,6 +21,7 @@ const PostSingle = ({
   posts,
   allCategories,
   relatedPosts,
+  children,
 }) => {
   let { description, title, date, image, categories } = frontmatter;
   description = description ? description : content.slice(0, 120);
@@ -35,7 +35,7 @@ const PostSingle = ({
 
   return (
     <>
-      <section className="section single-blog mt-6">
+      <section className="section single-blog">
         <div className="container">
           <div className="row">
             <div className="lg:col-8">
@@ -71,7 +71,7 @@ const PostSingle = ({
                     <InnerPagination posts={posts} date={date} />
                   </div>
                 )}
-                {markdownify(title, "h1", "lg:text-[42px] mt-4")}
+                {markdownify(title, "h1", "mt-4")}
                 <ul className="flex items-center space-x-4">
                   <li>
                     <Link
@@ -87,14 +87,12 @@ const PostSingle = ({
                     {dateFormat(date)}
                   </li>
                 </ul>
-                <div className="content mb-16">
-                  <MDXContent content={content} />
-                </div>
+                <div className="content mb-8">{children}</div>
                 {config.settings.InnerPaginationOptions.enableBottom && (
                   <InnerPagination posts={posts} date={date} />
                 )}
               </article>
-              <div className="mt-16">
+              <div className="mt-8">
                 {disqus.enable && (
                   <DiscussionEmbed
                     key={theme}
@@ -111,12 +109,12 @@ const PostSingle = ({
           </div>
         </div>
 
-        {/* Related posts */}
-        <div className="container mt-20">
-          <h2 className="section-title">Related Posts</h2>
-          <div className="row mt-16">
+        {/* Postingan terkait */}
+        <div className="container mt-10">
+          <h2 className="section-title">Postingan Terkait</h2>
+          <div className="row mt-6">
             {relatedPosts.slice(0, 3).map((post, index) => (
-              <div key={"post-" + index} className="mb-12 lg:col-4">
+              <div key={"post-" + index} className="mb-8 lg:col-4">
                 <Post post={post} />
               </div>
             ))}

@@ -33,25 +33,25 @@ const SearchContent = () => {
     <>
       <SeoMeta
         pathname="/search"
-        title={`Search results for ${searchParams.get("key")}`}
+        title={`Hasil pencarian untuk ${searchParams.get("key")}`}
       />
       <div className="section">
         <div className="container">
-          <h1 className="h2 mb-8 text-center">
-            Search results for{" "}
+          <h1 className="h2 mb-6 text-center">
+            Hasil pencarian untuk{" "}
             <span className="text-primary">{searchParams.get("key")}</span>
           </h1>
           {searchResults.length > 0 ? (
             <div className="row">
               {searchResults.map((post, i) => (
-                <div key={`key-${i}`} className="col-12 mb-8 sm:col-6">
+                <div key={`key-${i}`} className="col-12 mb-6 sm:col-6">
                   <Post post={post} />
                 </div>
               ))}
             </div>
           ) : (
-            <div className="py-24 text-center text-h3 shadow">
-              No Search Found
+            <div className="py-16 text-center text-h3 shadow">
+              Hasil Pencarian Tidak Ditemukan
             </div>
           )}
         </div>
@@ -62,7 +62,7 @@ const SearchContent = () => {
 
 const SearchPage = () => {
   return (
-    <Suspense fallback={<div>Loading...</div>}>
+    <Suspense fallback={<div>Memuat...</div>}>
       <SearchContent />
     </Suspense>
   );

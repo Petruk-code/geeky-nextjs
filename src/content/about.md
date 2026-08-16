@@ -1,36 +1,38 @@
 ---
-title: About The Author
+title: Tentang Penulis
 image: /images/author.png
-description: "meta description"
+description: "deskripsi meta"
 layout: about
 education:
-  title: Formal Education
+  title: Pendidikan Formal
   degrees:
-    - university: "Southeast University"
-      content: "1985 • 1991 • gravida nibh velvelit auctor alimo quet menean solli"
-    - university: "Northeast University"
-      content: "1985 • 1991 • gravida nibh velvelit auctor alimo quet menean solli"
-    - university: "Easteast University"
-      content: "1985 • 1991 • gravida nibh velvelit auctor alimo quet menean solli"
-    - university: "Southeast University"
-      content: "1985 • 1991 • gravida nibh velvelit auctor alimo quet menean solli"  
+    - university: "Universitas Asia Tenggara"
+      content: "Teknik Sipil • 2012 • lulus dengan predikat cumlaude"
+    - university: "Universitas Asia Timur Laut"
+      content: "Arsitektur • 2010 • aktif di organisasi desain"
+    - university: "Universitas Timur Jauh"
+      content: "Desain Grafis • 2014 • kursus profesional"
+    - university: "Universitas Asia Tenggara"
+      content: "Magister Teknik • 2016 • fokus pada teknologi konstruksi"
 
 experience:
-  title: Work Experience
+  title: Pengalaman Kerja
   list:
-    - Best Writer Award
-    - Best New Newel
-    - Best Book
-    - Best Article
-    - Best New Newel
-    - Best New Newel
-    - Best Book
-    - Best Article
-    - Best New Newel
-    - Best Book
+    - Konsultan Struktur Gedung
+    - Desainer Arsitektur
+    - Desainer Grafis & UI
+    - Penulis Teknis
+    - Pengembang Website
+    - Konsultan Software Teknik
+    - Trainer AutoCAD & ETABS
+    - Reviewer AI Tools
 
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi amet, ultrices scelerisue cras. Tincidunt hendrerit egestas venenatis risus sit nunc. Est esglit non in ipsum lect;aaus adipiscing et enim porttitor. Dui ultrices et volud eetpat nunc, turpis rutrum elit vestibululm ipsum. Arcu fringilla duis vitae mos dsdllis duicras interdum purus cursus massa metus. Acc umsan felaais, egsdvet nisi, viverra turpis fermentum sit suspf bafedfb ndisse fermentum consectetur. Facilisis feugiat trisique orci tempor sed masd fbsssa tristique ultrices sodales. Augue est sapien elementum facilisis. Enim tincidnt cras interdum purus ndisse. morbi quis nunc.
+Halo, saya John Bravo. Saya berkecimpung di dunia teknik sipil, arsitektur, dan desain — sekaligus penggemar berat teknologi. Sehari-hari saya menggunakan berbagai software berat seperti AutoCAD, ETABS, SAP2000, Revit, hingga tools desain grafis.
 
-Et dolor placerat tempus risus nunc urna, nunc a. Mattis viverra ut sapidaaen enim sed tortor. Mattis gravida fusce cras interdum purus cursus massa metus. Acc umsan felaais, eget nisi, viverra turpis fermentum sit suspf bafedfb ndisse. morbi quis nunc, at arcu quam facilisi. In in lacus aliquam dictum sagittis morbi odio. Et magnis cursus sem sed condimentum. Nibh non potenti ac amsdfet Tincidunt hendrerit egestas venenatis risus sit nunc. Est esglit non in ipsuasdm lect;aaus adipiscing et enim porttitor. Dui ultrices et volud eetpat nunc, turpis ndisse. morbi quis nunc, at arcu quam facilisi ndisse. morbi quis nunc, at arcu quam facilisi
+Di blog ini saya berbagi pengalaman nyata seputar software yang sering saya pakai: cara mengatasi error saat instalasi, tips meningkatkan performa agar tidak lemot, serta rekomendasi tools yang benar-benar membantu pekerjaan.
+
+Saya juga menulis tentang perkembangan teknologi web dan kecerdasan buatan — dari stack website modern sampai AI tools gratis maupun berbayar yang bisa mempermudah hidupmu. Semua ditulis dengan bahasa yang ringan dan mudah dipahami.
+
+Semoga tulisan di sini bermanfaat. Selamat membaca!

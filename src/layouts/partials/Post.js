@@ -36,7 +36,7 @@ const Post = ({ post }) => {
           ))}
         </ul>
       </div>
-      <h3 className="h5 mb-2 mt-4">
+      <h3 className="mb-2 mt-3 text-lg">
         <Link
           href={`/${blog_folder}/${post.slug}`}
           className="block hover:text-primary"
@@ -59,12 +59,12 @@ const Post = ({ post }) => {
           {dateFormat(post.frontmatter.date)}
         </li>
       </ul>
-      <p>{post.content.slice(0, Number(summary_length))}</p>
+      <p className="line-clamp-3 text-sm">{post.content.slice(0, Number(summary_length))}</p>
       <Link
-        className="btn btn-outline-primary mt-4"
+        className="btn btn-outline-primary mt-3"
         href={`/${blog_folder}/${post.slug}`}
       >
-        Read More
+        Baca Selengkapnya
       </Link>
     </div>
   );

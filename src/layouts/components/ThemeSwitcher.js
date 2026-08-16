@@ -14,7 +14,7 @@ const ThemeSwitcher = () => {
     <>
       {theme_switcher && (
         <button
-          aria-label="Toggle Theme"
+          aria-label="Ganti Tema"
           type="button"
           className="h-8 w-8 rounded p-1 justify-self-end"
           onClick={() =>

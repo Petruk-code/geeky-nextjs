@@ -1,25 +1,26 @@
 ---
-title: "Artificial Intelligence and Robotics In A Nutshell"
-date: 2022-04-04T07:00:00Z
+title: "AI untuk Teknik Sipil dan Arsitektur: Tools yang Wajib Dicoba"
+date: 2026-01-09T07:00:00Z
 image: /images/post/post-7.png
-categories: ["programming", "youtube"]
-featured: false
+categories: ["ai tools"]
+featured: true
 draft: false
 ---
 
-Nemo vel ad consectetur namut rutrum ex, venenatis sollicitudin urna. Aliquam erat volutpat. Integer eu ipsum sem. Ut bibendum lacus vestibulum maximus suscipit. Quisque vitae nibh iaculis neque blandit euismod.
+Kecerdasan buatan kini tidak hanya milik para developer. Di bidang teknik sipil dan arsitektur, AI mulai membantu dalam perencanaan, analisis, hingga visualisasi desain. Berikut beberapa penerapan yang paling menarik.
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vel ad consectetur ut aperiam. Itaque eligendi natus aperiam? Excepturi repellendus consequatur quibusdam optio expedita praesentium est adipisci dolorem ut eius!
+## AI dalam Perencanaan Struktur
 
-## Covid-19 Situation
+Beberapa software mulai mengintegrasikan AI untuk mengoptimalkan desain struktur. Algoritma generatif bisa menghasilkan ribuan alternatif desain dalam hitungan menit, memungkinkan insinyur membandingkan efisiensi material dan biaya secara cepat.
 
-Nam ut rutrum ex, venenatis sollicitudin urna. Aliquam erat volutpat. Integer eu ipsum sem. Ut bibendum lacus vestibulum maximus suscipit. Quisque vitae nibh iaculis neque blandit euismod.
+## AI untuk Visualisasi Arsitektur
 
-> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vel ad consectetur ut aperiam. Itaque eligendi natus aperiam? Excepturi repellendus consequatur quibusdam optio expedita praesentium est adipisci dolorem ut eius!
+Bayangkan kamu hanya mengetik deskripsi suasana ruangan, lalu AI langsung menghasilkan konsep visual. Tools seperti generator gambar berbasis teks kini banyak digunakan arsitek untuk membuat moodboard dan konsep awal dengan sangat cepat.
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vel ad consectetur ut aperiam. Itaque eligendi natus aperiam? Excepturi repellendus consequatur quibusdam optio expedita praesentium est adipisci dolorem ut eius!
+## Bantuan AI untuk Penulisan dan Dokumentasi
 
-![alter-text](/images/post/post-1.png)
-*Example Caption*
+Bagi yang sering membuat laporan, spesifikasi teknis, atau proposal, AI chatbot bisa membantu menyusun draf dengan cepat. Kamu tinggal memberikan kerangka, dan AI mengembangkannya menjadi paragraf yang rapi.
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vel ad consectetur ut aperiam. Itaque eligendi natus aperiam? Excepturi repellendus consequatur quibusdam optio expedita praesentium est adipisci dolorem ut eius! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vel ad consectetur ut aperiam. Itaque eligendi natus aperiam? Excepturi repellendus consequatur quibusdam optio expedita praesentium est adipisci dolorem ut eius!
+> AI bukan pengganti insinyur, melainkan asisten yang mempercepat pekerjaan dan memperluas kemungkinan desain.
+
+Mulailah dari tools gratis untuk mengenal kemampuannya, lalu pertimbangkan versi berbayar ketika kebutuhanmu sudah meningkat.

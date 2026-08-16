@@ -1,25 +1,27 @@
 ---
-title: "How to make toys from old Olarpaper"
-date: 2022-04-04T01:00:00Z
+title: "Cara Mengatasi Error Instalasi AutoCAD di Windows"
+date: 2026-01-04T01:00:00Z
 image: /images/post/post-1.png
-categories: ["programming"]
+categories: ["teknik sipil"]
 featured: true
 draft: false
 ---
 
-Nemo vel ad consectetur namut rutrum ex, venenatis sollicitudin urna. Aliquam erat volutpat. Integer eu ipsum sem. Ut bibendum lacus vestibulum maximus suscipit. Quisque vitae nibh iaculis neque blandit euismod.
+AutoCAD merupakan software andalan para insinyur sipil dan arsitek untuk membuat gambar kerja. Sayangnya, proses instalasinya seringkali berakhir dengan error yang bikin pusing. Mulai dari error .NET Framework, missing component, sampai instalasi yang berhenti di tengah jalan.
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vel ad consectetur ut aperiam. Itaque eligendi natus aperiam? Excepturi repellendus consequatur quibusdam optio expedita praesentium est adipisci dolorem ut eius!
+## Penyebab Error Instalasi Paling Umum
 
-## Covid-19 Situation
+Sebagian besar error terjadi karena beberapa hal berikut:
 
-Nam ut rutrum ex, venenatis sollicitudin urna. Aliquam erat volutpat. Integer eu ipsum sem. Ut bibendum lacus vestibulum maximus suscipit. Quisque vitae nibh iaculis neque blandit euismod.
+- Versi .NET Framework tidak terpasang atau rusak
+- File installer terunduh tidak lengkap
+- Antivirus atau Windows Defender memblokir proses instalasi
+- Software versi lama belum di-uninstall dengan bersih
 
-> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vel ad consectetur ut aperiam. Itaque eligendi natus aperiam? Excepturi repellendus consequatur quibusdam optio expedita praesentium est adipisci dolorem ut eius!
+## Langkah Mengatasinya
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vel ad consectetur ut aperiam. Itaque eligendi natus aperiam? Excepturi repellendus consequatur quibusdam optio expedita praesentium est adipisci dolorem ut eius!
+Pertama, pastikan kamu menonaktifkan sementara antivirus selama proses instalasi berjalan. Kedua, jalankan installer dengan klik kanan lalu pilih *Run as Administrator*. Terakhir, install semua komponen pendukung seperti .NET Framework dan Visual C++ Redistributable sebelum menjalankan installer utama.
 
-![alter-text](/images/post/post-1.png)
-*Example Caption*
+> Kesalahan paling sering terjadi bukan karena softwarenya, tapi karena komponen pendukung yang belum lengkap.
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vel ad consectetur ut aperiam. Itaque eligendi natus aperiam? Excepturi repellendus consequatur quibusdam optio expedita praesentium est adipisci dolorem ut eius! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vel ad consectetur ut aperiam. Itaque eligendi natus aperiam? Excepturi repellendus consequatur quibusdam optio expedita praesentium est adipisci dolorem ut eius!
+Setelah semua langkah dilakukan, instalasi biasanya berjalan lancar. Jika masih error, coba bersihkan sisa file dari versi lama menggunakan tools seperti Revo Uninstaller sebelum mengulang instalasi.

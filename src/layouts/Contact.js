@@ -9,9 +9,9 @@ const Contact = ({ data }) => {
   const { title, form_action, phone, mail, location } = frontmatter;
 
   return (
-    <section className="section lg:mt-16">
+    <section className="section lg:mt-4">
       <div className="container">
-        <div className="row relative pb-16">
+        <div className="row relative pb-8">
           <ImageFallback
             className="-z-[1] object-cover object-top"
             src={"/images/map.svg"}
@@ -23,25 +23,25 @@ const Contact = ({ data }) => {
             {markdownify(
               title,
               "h1",
-              "h1 my-10 lg:my-11 lg:pt-11 text-center lg:text-left lg:text-[64px]"
+              "my-4 text-center lg:text-left lg:text-[48px]"
             )}
           </div>
-          <div className="contact-form-wrapper rounded border border-border p-6 dark:border-darkmode-border lg:col-6">
+          <div className="contact-form-wrapper rounded border border-border p-5 dark:border-darkmode-border lg:col-6">
             <h2>
-              Send Us A
+              Kirim Pesan
               <span className="ml-1.5 inline-flex items-center text-primary">
-                Message
+                Untuk Kami
                 <BsArrowRightShort />
               </span>
             </h2>
             <form
-              className="contact-form mt-12"
+              className="contact-form mt-6"
               method="POST"
               action={form_action}
             >
-              <div className="mb-6">
-                <label className="mb-2 block font-secondary" htmlFor="name">
-                  Full name
+              <div className="mb-4">
+                <label className="mb-1 block font-secondary" htmlFor="name">
+                  Nama Lengkap
                   <small className="font-secondary text-sm text-primary">
                     *
                   </small>
@@ -50,13 +50,13 @@ const Contact = ({ data }) => {
                   className="form-input w-full"
                   name="name"
                   type="text"
-                  placeholder="Thomas Milano"
+                  placeholder="Nama Kamu"
                   required
                 />
               </div>
-              <div className="mb-6">
-                <label className="mb-2 block font-secondary" htmlFor="email">
-                  Email Address
+              <div className="mb-4">
+                <label className="mb-1 block font-secondary" htmlFor="email">
+                  Alamat Email
                   <small className="font-secondary text-sm text-primary">
                     *
                   </small>
@@ -65,13 +65,13 @@ const Contact = ({ data }) => {
                   className="form-input w-full"
                   name="email"
                   type="email"
-                  placeholder="example@gmail.com"
+                  placeholder="nama@gmail.com"
                   required
                 />
               </div>
-              <div className="mb-6">
-                <label className="mb-2 block font-secondary" htmlFor="subject">
-                  Subject
+              <div className="mb-4">
+                <label className="mb-1 block font-secondary" htmlFor="subject">
+                  Subjek
                   <small className="font-secondary text-sm text-primary">
                     *
                   </small>
@@ -80,27 +80,27 @@ const Contact = ({ data }) => {
                   className="form-input w-full"
                   name="subject"
                   type="text"
-                  placeholder="Blog advertisement"
+                  placeholder="Kerja sama iklan"
                   required
                 />
               </div>
-              <div className="mb-6">
-                <label className="mb-2 block font-secondary" htmlFor="message">
-                  Your Message Here
+              <div className="mb-4">
+                <label className="mb-1 block font-secondary" htmlFor="message">
+                  Pesan Kamu
                   <small className="font-secondary text-sm text-primary">
                     *
                   </small>
                 </label>
                 <textarea
                   className="form-textarea w-full"
-                  placeholder="Hello I’m Mr ‘x’ from………….."
+                  placeholder="Halo, saya ingin menanyakan sesuatu..."
                   rows="7"
                 />
               </div>
               <input
                 className="btn btn-primary"
                 type="submit"
-                value="Send Now"
+                value="Kirim Sekarang"
               />
             </form>
           </div>

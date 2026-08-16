@@ -1,5 +1,5 @@
 .section {
-  @apply py-16;
+  @apply py-10;
 }
 
 .social-icons {
@@ -49,8 +49,12 @@
   @apply -mt-4 block text-center text-gray-500;
 }
 
+.content blockquote {
+  @apply text-text-dark dark:text-darkmode-text-light;
+}
+
 .content blockquote > p {
-  @apply relative text-2xl text-black;
+  @apply relative text-2xl text-text-dark dark:text-darkmode-text-light;
 }
 
 .content blockquote > p::after,
@@ -79,7 +83,7 @@
 }
 
 .section-title {
-  @apply mb-12 underline decoration-primary decoration-wavy decoration-2 underline-offset-[.5em];
+  @apply mb-6 underline decoration-primary decoration-wavy decoration-2 underline-offset-[.5em];
 }
 
 .socials {
@@ -165,12 +169,12 @@ footer .socials {
 }
 
 .single-blog blockquote {
-  @apply px-12 lg:px-[105px];
+  @apply px-12 text-text-dark lg:px-[105px] dark:text-darkmode-text-light;
 }
 
 .single-blog blockquote > p {
   @apply lg:text-[24px];
-  @apply relative text-2xl text-black;
+  @apply relative text-2xl text-text-dark dark:text-darkmode-text-light;
 }
 
 .single-blog blockquote > p::after,

@@ -1,13 +1,13 @@
 .btn {
-  @apply font-secondary inline-block border px-5 py-2.5 font-bold transition;
+  @apply font-secondary inline-block border px-4 py-2 font-bold transition;
 }
 
 .btn-primary {
-  @apply bg-primary text-white rounded-[50px] px-8 py-2.5 relative border-0 overflow-hidden h-12;
+  @apply relative h-10 overflow-hidden rounded-full border-0 bg-primary px-6 py-2 text-white;
 }
 
 .btn-primary::before {
-  @apply content-[''] absolute h-full right-0 bg-black/5 w-0 top-0 transition-all duration-500 rounded-[50px] ease-[cubic-bezier(.42,0,.58,1)];
+  @apply content-[''] absolute h-full right-0 bg-black/5 w-0 top-0 transition-all duration-500 rounded-full ease-[cubic-bezier(.42,0,.58,1)];
 }
 
 .btn-primary:hover::before {
@@ -15,11 +15,11 @@
 }
 
 .btn-outline-primary {
-  @apply border-primary bg-transparent hover:bg-primary hover:text-white rounded-[50px] text-primary font-bold relative transition-all ease-[cubic-bezier(.42,0,.58,1)] duration-75 overflow-hidden h-12;
+  @apply relative h-10 overflow-hidden rounded-full border-primary bg-transparent text-primary transition-all duration-75 ease-[cubic-bezier(.42,0,.58,1)] hover:bg-primary hover:text-white;
 }
 
 .btn-outline-primary::before {
-  @apply content-[''] absolute h-full right-0 bg-black/5 w-0 top-0 transition-all duration-500 rounded-[50px];
+  @apply content-[''] absolute h-full right-0 bg-black/5 w-0 top-0 transition-all duration-500 rounded-full;
 }
 
 .btn-outline-primary:hover::before {
